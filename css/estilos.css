@@ -866,4 +866,7 @@ h5{
     .tituloSumar{
         padding-left: 25px;
     }
+    .containerNuestraHistoria{
+        background-image: url(../img/nuestrahist.jpg);
+    }
 }
