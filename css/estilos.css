@@ -15,20 +15,20 @@ body{
     background: rgb(218, 183, 133);
 }
 .container{
+    background-image:url(../img/112126\ \(1\).jpg);
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    background-image:url(../img/112126\ \(1\).jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 50%;
     padding-bottom: 1%;
 }
 .headerr{
-    width:63%;
+    width:90%;
     display: flex;
     flex-direction: column;
 }
@@ -37,7 +37,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width:80%;
+    width:90%;
 }
 .descubrirBoton{
     text-decoration: none;
@@ -52,13 +52,13 @@ body{
 .barraNav{
     padding-left:2%;
     padding-right: 2%;
+    height: 140px;
 }
 nav ul{
     list-style-type: none;
     display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    font-size: 15px;
+    flex-direction: column;
+    font-size: 20px;
     margin-top: 10px;
 }
 .navi{
@@ -71,14 +71,14 @@ nav ul{
 }
 h1{
     font-family: "Prompt", sans-serif;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bolder;
     color:white;
     text-shadow: 2px 2px 3px black;
 }
 h2{
     font-family: "Barlow", sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color:rgb(233, 79, 55);
     display: flex;
     justify-content: center;
@@ -358,19 +358,31 @@ h5{
     display: flex;
     flex-direction: column;
     height: 240px;
+    padding-left: 0px;
 }
 #naviNH{
     padding: 15px;
     text-decoration: none;
     color: white;
     font-family: "Barlow", sans-serif ;
-    font-size: 20px;
+    font-size: 32px;
     font-weight:bold;
 }
 #headerrMobile{
     width: 90%;
 }
-
+#backgroundGaleria{
+    background-image: url(../img/ice4.jpg);
+}
+.noMeTomaElEstilo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.bodyGaleria{
+    background-color: rgb(209, 240, 177);
+}
 
 @media(min-width: 992px){
     .container{
@@ -417,7 +429,7 @@ h5{
         transition-duration: 1s;
     }
     .barraNav{
-        padding-left:75px;
+        padding-left:20px;
     }
     .queEsSumar{
         padding-top: 7em;
@@ -469,7 +481,7 @@ h5{
         font-weight: bolder;
         color:white;
         padding-top: 2px;
-        padding-left: 30px;
+        padding-left: 20px;
         text-shadow: 3px 3px 4px black;
     }
     nav ul{
@@ -795,15 +807,15 @@ h5{
         font-size: 25px;
         font-weight: bold;
     }
+    .col{
+        padding-top: 15px;
+        font-size: 25px;
+        font-weight: bold;
+    }
     .textoFormulario{
         width: 45%;
         padding-left: 0;
         padding-right: 40;
-    }
-    .bodyGaleria{
-        display: flex;
-        flex-direction: column;
-        background-color: rgb(209, 240, 177);
     }
     .primerCarousel{
         display: flex;
@@ -817,28 +829,41 @@ h5{
         height: 500px;
     }
     .imagenDeCarousel{
-        height: 400px;
+        height: 500px;
         width: 100%;
+        padding-bottom: 55px;
     }
     .noMeTomaElEstilo{
-        font-family: "Barlow", sans-serif;
         font-size: 50px;
-        padding-top: 70px;
-        color: rgb(233, 79, 55);
-        text-shadow: 2px 2px 3px black;
-        font-weight: bolder;
-    }
-    .row{
-        font-size: 25px;
-        font-weight: bold;
     }
     .tituloSumar{
         padding-top: 10px;
-        padding-left: 30px;
+        padding-left: 6px;
         font-family: "Prompt", sans-serif;
-        font-size: 50px;
+        font-size: 48px;
         font-weight: bolder;
         color:white;
         text-shadow: 3px 3px 4px black;
+    }
+    #headerrMobile{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .ulNH{
+        flex-direction: row;
+        height: 50px;
+        align-items: center;
+    }
+    #naviNH{
+        font-size: 25px;
+    }
+    #tituloNuestraHistoria{
+        font-size: 48px;
+    }
+    .tituloSumar{
+        padding-left: 25px;
     }
 }
