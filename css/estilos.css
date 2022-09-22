@@ -73,7 +73,7 @@ h1{
     font-family: "Prompt", sans-serif;
     font-size: 30px;
     font-weight: bolder;
-    color:rgb(238, 86, 34);
+    color:white;
     text-shadow: 2px 2px 3px black;
 }
 h2{
@@ -435,7 +435,7 @@ h5{
         font-family: "Prompt", sans-serif;
         font-size: 50px;
         font-weight: bolder;
-        color:rgb(233, 79, 55);
+        color:white;
         padding-top: 2px;
         padding-left: 10px;
         text-shadow: 3px 3px 4px black;
@@ -743,7 +743,7 @@ h5{
         height: 100%;
     }
     .bodyContacto{
-        background-image:url(../img/ice4.jpg);
+        background-image:url(../img/glaciares1.jpg);
         background-repeat: repeat;
         background-size: 100% 100%;
     }
@@ -760,5 +760,30 @@ h5{
     }
     .mb-3{
         padding-top: 15px;
+    }
+    .textoFormulario{
+        width: 45%;
+        padding-left: 0;
+        padding-right: 40;
+    }
+    .bodyGaleria{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(209, 240, 177);
+    }
+    .acaVaElCarousel1{
+        position: static;
+        padding-top: 25px;
+        padding-left: 10%;
+        width: 90%;
+        height: 500px;
+    }
+    .imagenDeCarousel{
+        height: 400px;
+        width: 100%;
+    }
+    .textoPrimerDestino{
+        font-family: "Barlow", sans-serif;
+        font-size: 60px;
     }
 }
