@@ -477,7 +477,10 @@ h5 {
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 50px;
+    font-size: 60px;
+  }
+  #tituloNuestraHistoria {
+    font-size: 60px;
   }
   .descubrirBoton, .contactanosBoton {
     font-size: 20px;
@@ -493,6 +496,21 @@ h5 {
   .prefooter {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  .primerYSegundoLugar {
+    height: 400px;
+  }
+  .quintaMilagros {
+    height: 400px;
+  }
+  #paqueteee {
+    height: 400px;
+  }
+  .mainViajes {
+    padding-top: 8%;
+  }
+  .mainGaleria {
+    padding-bottom: 30px;
   }
 }
 @media (min-width: 1048px) {
@@ -963,10 +981,10 @@ h5 {
     padding-top: 25px;
     padding-left: 10%;
     width: 90%;
-    height: 500px;
+    height: 700px;
   }
   .imagenDeCarousel {
-    height: 500px;
+    height: 700px;
     width: 100%;
     padding-bottom: 55px;
   }
@@ -1009,7 +1027,7 @@ h5 {
   .aboutMe {
     display: flex;
     flex-direction: row;
-    padding: 10% 2% 10% 2%;
+    padding: 10% 2% 10% 8%;
     align-items: center;
     border: none;
     margin-top: 0;
@@ -1026,12 +1044,12 @@ h5 {
     border: 5px solid black;
     border-radius: 45px;
     position: absolute;
-    margin-left: 275px;
+    margin-left: 370px;
     justify-content: space-around;
   }
   .imagenAboutMe {
-    width: 450px;
-    height: 600px;
+    width: 600px;
+    height: 700px;
   }
   .textoQuienEsSumarViajes {
     font-size: 25px;
