@@ -1,0 +1,54 @@
+.footer{
+    background-color: rgb(34, 30, 34);
+    color: white;
+    font-size: 40px;
+    padding-bottom: auto;
+    margin-bottom: 0%;
+    width: 100%;
+    .preFooter{
+        background-color: rgb(88, 176, 156);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 30%;
+        .preFooterPregunta{
+            font-family: "Barlow", sans-serif;
+            font-size: 35px;
+            color: black;
+            font-weight: bolder;
+        }
+        .contactanosBoton{
+            text-decoration: none;
+            display: flex;
+            font-size: 15px;
+            justify-content: space-around;
+            color: white;
+            font-family: "Poppins", sans-serif ;
+            background-color: rgb(238, 86, 34);
+            border-radius: 35px;
+            width: 150px;
+            text-shadow:2px 2px 3px black;
+        }
+    }
+    .footerColumnas{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        align-content: space-around;
+        padding-bottom: 20px;
+        .contactUs{
+            width: 70%;
+            .contactUsTitulo{
+                font-family: "Paytone One", sans-serif;
+                font-size: 25px;
+            }
+        }
+        .nuestrasRedesSociales{
+            width: 70%;
+        }
+        .copyright{
+            width: 70%;
+        }
+    }
+}
