@@ -3,6 +3,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Krona+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Paytone+One&display=swap");
+.descubrirBoton, .contactanosBoton {
+  text-decoration: none;
+  font-size: 15px;
+  justify-content: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(238, 86, 34);
+  border-radius: 8px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.contactanosBoton {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 35px;
+  width: 150px;
+  text-shadow: 2px 2px 3px black;
+}
+
+.container {
+  height: 300px;
+  width: 100%;
+  background-image: url(../img/112126\ \(1\).jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 1%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -49,35 +82,10 @@ nav ul {
   padding-bottom: 2%;
 }
 
-.descubrirBoton {
-  text-decoration: none;
-  font-size: 15px;
-  justify-content: center;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  background-color: rgb(238, 86, 34);
-  border-radius: 8px;
-  text-shadow: 1px 1px 2px black;
-}
-
 .headerr {
   width: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.container {
-  background-image: url(../img/112126\ \(1\).jpg);
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 100%;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  padding-bottom: 1%;
 }
 
 h1 {
@@ -89,10 +97,6 @@ h1 {
 }
 
 .copyright {
-  width: 70%;
-}
-
-.nuestrasRedesSociales {
   width: 70%;
 }
 
@@ -114,24 +118,12 @@ h1 {
   padding-bottom: 20px;
 }
 
-.contactanosBoton {
-  text-decoration: none;
+.preFooter {
+  background-color: rgb(88, 176, 156);
   display: flex;
-  font-size: 15px;
-  justify-content: space-around;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  background-color: rgb(238, 86, 34);
-  border-radius: 35px;
-  width: 150px;
-  text-shadow: 2px 2px 3px black;
-}
-
-.preFooterPregunta {
-  font-family: "Barlow", sans-serif;
-  font-size: 35px;
-  color: black;
-  font-weight: bolder;
+  flex-direction: column;
+  align-items: center;
+  height: 30%;
 }
 
 .footer {
@@ -143,12 +135,15 @@ h1 {
   width: 100%;
 }
 
-.preFooter {
-  background-color: rgb(88, 176, 156);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 30%;
+.nuestrasRedesSociales {
+  width: 70%;
+}
+
+.preFooterPregunta {
+  font-family: "Barlow", sans-serif;
+  font-size: 35px;
+  color: black;
+  font-weight: bolder;
 }
 
 .queEsSumar {
@@ -252,7 +247,7 @@ body {
 h2 {
   font-family: "Barlow", sans-serif;
   font-size: 30px;
-  color: rgb(233, 79, 55);
+  color: rgb(238, 86, 34);
   display: flex;
   justify-content: center;
   text-shadow: 2px 2px 3px black;
@@ -407,7 +402,9 @@ h5 {
   justify-content: center;
   align-items: center;
   width: 96%;
-  margin-left: 2, 5%;
+}
+.formularioConTexto .formularioContacto {
+  padding-left: 15px;
 }
 
 .containerNuestraHistoria {
@@ -482,6 +479,21 @@ h5 {
   h1 {
     font-size: 50px;
   }
+  .descubrirBoton, .contactanosBoton {
+    font-size: 20px;
+    border-radius: 6px;
+    width: 110px;
+  }
+  h2 {
+    font-size: 42px;
+  }
+  .contactanosBoton {
+    width: 175px;
+  }
+  .prefooter {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 @media (min-width: 1048px) {
   .container {
@@ -510,7 +522,7 @@ h5 {
     align-items: center;
     width: 100%;
   }
-  .descubrirBoton {
+  .descubrirBoton, .contactanosBoton {
     text-decoration: none;
     display: flex;
     font-size: 25px;
@@ -522,7 +534,7 @@ h5 {
     width: 140px;
     text-shadow: 1px 1px 2px black;
   }
-  .descubrirBoton:hover {
+  .descubrirBoton:hover, .contactanosBoton:hover {
     transform: scale(1.5);
     transition-property: all;
     transition-duration: 1s;
@@ -615,7 +627,7 @@ h5 {
   h2 {
     font-family: "Barlow", sans-serif;
     font-size: 50px;
-    color: rgb(233, 79, 55);
+    color: rgb(238, 86, 34);
     display: flex;
     justify-content: center;
     text-shadow: 2px 2px 3px black;
@@ -667,29 +679,6 @@ h5 {
     transition-duration: 1;
     transform: scale(1.5);
   }
-  .footer {
-    background-color: rgb(34, 30, 34);
-    color: white;
-    font-size: 40px;
-    padding-bottom: auto;
-    margin-bottom: 0%;
-  }
-  .preFooter {
-    background-color: rgb(88, 176, 156);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 80px;
-    padding-right: 130px;
-    align-items: center;
-    height: 4em;
-  }
-  .preFooterPregunta {
-    font-family: "Barlow", sans-serif;
-    font-size: 50px;
-    color: black;
-    font-weight: bolder;
-  }
   .contactanosBoton {
     text-decoration: none;
     display: flex;
@@ -707,31 +696,74 @@ h5 {
     transition-duration: 0.5s;
     transform: scale(1.1);
   }
-  .footerColumnas {
+  .footer {
+    background-color: rgb(34, 30, 34);
+    color: white;
+    font-size: 40px;
+    padding-bottom: auto;
+    margin-bottom: 0%;
+  }
+  .footer .preFooter {
+    background-color: rgb(88, 176, 156);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 130px;
+    align-items: center;
+    height: 4em;
+  }
+  .footer .preFooter .preFooterPregunta {
+    font-family: "Barlow", sans-serif;
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+  }
+  .footer .preFooter .contactanosBoton {
+    text-decoration: none;
+    display: flex;
+    font-size: 35px;
+    justify-content: space-around;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(238, 86, 34);
+    border-radius: 35px;
+    width: 340px;
+    text-shadow: 2px 2px 3px black;
+  }
+  .footer .footerColumnas {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     padding-top: 20px;
   }
-  span {
+  .footer .footerColumnas .contactUs {
+    width: 250px;
+  }
+  .footer .footerColumnas .contactUs .contactUsTitulo {
+    font-family: "Paytone One", sans-serif;
+    font-size: 25px;
+  }
+  .footer .footerColumnas .contactUs span {
     font-size: 18px;
     font-family: "Paytone One", sans-serif;
   }
-  .contactUsTitulo {
+  .footer .footerColumnas .redesSociales .nuestrasRedes .contactUsTitulo {
+    font-family: "Paytone One", sans-serif;
+    font-size: 25px;
+  }
+  .footer .footerColumnas .copyright {
+    width: 350px;
+  }
+  .footer .footerColumnas .copyright .contactUsTitulo {
     font-family: "Paytone One", sans-serif;
     font-size: 25px;
   }
   h5 {
     font-size: 15px;
   }
-  .contactUs {
-    width: 250px;
-  }
   .nuestrasRedesSociales {
-    width: 350px;
-  }
-  .copyright {
     width: 350px;
   }
   .containerviajes {
