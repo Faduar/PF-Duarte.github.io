@@ -3,37 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Krona+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Paytone+One&display=swap");
-
 *{
     margin: 0;
     padding: 0;
-}
-.descubrirBoton{
-    text-decoration: none;
-    font-size: 15px;
-    justify-content: center;
-    color: white;
-    font-family: "Poppins", sans-serif ;
-    background-color: rgb(238, 86, 34);
-    border-radius: 8px;
-    text-shadow:1px 1px 2px black;
-}
-.textoImagen{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 10px;
-    color:white;
-    text-shadow:3px 3px 4px black;
-    font-size: 20px;
-    padding-bottom: 2%;
-}
-.presentacion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width:90%;  
 }
 .navi{
     text-decoration: none;
@@ -47,12 +19,40 @@ nav ul{
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 10px;   
 }
 .barraNav{
     padding-left:2%;
     padding-right: 2%;
     height: 140px;
+    
+}
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:90%; 
+}
+.textoImagen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    color:white;
+    text-shadow:3px 3px 4px black;
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+.descubrirBoton{
+    text-decoration: none;
+    font-size: 15px;
+    justify-content: center;
+    color: white;
+    font-family: "Poppins", sans-serif ;
+    background-color: rgb(238, 86, 34);
+    border-radius: 8px;
+    text-shadow:1px 1px 2px black;
 }
 .headerr{
     width:100%;
