@@ -445,7 +445,10 @@ h5 {
 }
 
 #backgroundGaleria {
-  background-image: url(../img/collage.jpg);
+  background-image: url(../img/probar2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  height: 372px;
 }
 
 .noMeTomaElEstilo {
@@ -460,7 +463,10 @@ h5 {
 }
 
 .containerNuestraHistoria {
-  background-image: url(../img/formosaFINAL.jpg);
+  background-image: url(../img/probar3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 250px;
+  height: 250px;
 }
 
 .imagenAboutMe {
@@ -1022,7 +1028,10 @@ h5 {
     padding-left: 25px;
   }
   .containerNuestraHistoria {
-    background-image: url(../img/formosaFINAL.jpg);
+    background-image: url(../img/probar3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    height: 372px;
   }
   .aboutMe {
     display: flex;
@@ -1044,7 +1053,7 @@ h5 {
     border: 5px solid black;
     border-radius: 45px;
     position: absolute;
-    margin-left: 370px;
+    margin-left: 340px;
     justify-content: space-around;
   }
   .imagenAboutMe {
