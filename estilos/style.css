@@ -386,7 +386,7 @@ h5 {
 }
 
 .bodyContacto {
-  background-color: rgb(209, 240, 177);
+  background-color: rgb(218, 183, 133);
   width: 100%;
 }
 
@@ -406,19 +406,21 @@ h5 {
 .formularioConTexto .formularioContacto {
   padding-left: 15px;
 }
+.formularioConTexto .textoFormulario {
+  font-weight: bolder;
+}
 
 .containerNuestraHistoria {
-  background-image: url(../img/glaciares1.jpg);
-  height: 240px;
+  background-image: url(../img/probar3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   flex-wrap: wrap;
   align-items: center;
-  width: 100%;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
   padding-bottom: 1%;
+  height: 210px;
 }
 
 #tituloNuestraHistoria {
@@ -446,7 +448,6 @@ h5 {
 
 #backgroundGaleria {
   background-image: url(../img/probar2.jpg);
-  background-repeat: no-repeat;
   background-size: 100% 600px;
   height: 372px;
 }
@@ -459,23 +460,15 @@ h5 {
 }
 
 .bodyGaleria {
-  background-color: rgb(209, 240, 177);
-}
-
-.containerNuestraHistoria {
-  background-image: url(../img/probar3.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 250px;
-  height: 250px;
+  background-color: rgb(218, 183, 133);
 }
 
 .imagenAboutMe {
-  height: 300px;
   width: 100%;
 }
 
 .aboutMe {
-  border: 5px solid black;
+  border: 5px solid rgb(226, 157, 61);
   margin-top: 10px;
   margin-bottom: 10px;
   padding-bottom: 3px;
@@ -517,6 +510,10 @@ h5 {
   }
   .mainGaleria {
     padding-bottom: 30px;
+  }
+  .containerNuestraHistoria {
+    padding-bottom: 1%;
+    height: 250px;
   }
 }
 @media (min-width: 1048px) {
@@ -637,7 +634,7 @@ h5 {
     padding-right: 15px;
   }
   body {
-    background-color: rgb(209, 240, 177);
+    background-color: rgb(218, 183, 133);
     width: 100%;
     text-align: center;
   }
@@ -977,6 +974,7 @@ h5 {
     width: 45%;
     padding-left: 0;
     padding-right: 40;
+    font-weight: bolder;
   }
   .primerCarousel {
     display: flex;
@@ -1028,45 +1026,45 @@ h5 {
     padding-left: 25px;
   }
   .containerNuestraHistoria {
-    background-image: url(../img/probar3.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 500px;
-    height: 372px;
+    height: 475px;
+    background-size: 100% 600px;
   }
   .aboutMe {
     display: flex;
     flex-direction: row;
-    padding: 10% 2% 10% 8%;
+    padding: 10% 5% 10% 5%;
     align-items: center;
     border: none;
     margin-top: 0;
     margin-bottom: 0;
-    width: 90%;
+    width: 75%;
+  }
+  .mainNH {
+    display: flex;
+    align-items: center;
   }
   .bloqueConDescripcion {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(255, 215, 197);
-    width: 68%;
-    height: 350px;
+    background-color: rgb(209, 240, 177);
+    width: 1200px;
+    height: 600px;
     border: 5px solid black;
     border-radius: 45px;
     position: absolute;
-    margin-left: 340px;
+    margin-left: 500px;
     justify-content: space-around;
+    left: 333px;
   }
   .imagenAboutMe {
-    width: 600px;
-    height: 700px;
+    width: 900px;
+    height: 1000px;
   }
   .textoQuienEsSumarViajes {
-    font-size: 25px;
+    font-size: 30px;
     padding-bottom: 20px;
     padding-right: 10%;
     padding-left: 10%;
-  }
-  .mainNH {
-    width: 90%;
   }
 }/*# sourceMappingURL=style.css.map */
