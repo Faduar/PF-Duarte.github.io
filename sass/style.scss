@@ -119,6 +119,20 @@ h1{
     padding-top: 20px;
     width: 100%;  
 }
+.acaVaElCarousel1 {
+    width: 80vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+
+.imagenDeCarousel{
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+}
+
 .flyers{
     display: flex;
     flex-direction: column;
@@ -240,16 +254,16 @@ h5{
     display:flex;
     flex-direction: column;
     align-items: center; 
-    width: 75%;
 }
 .mainViajes{
-    padding:15% 5% 15% 5%;
+    padding:5% 27% 5% 27%;
 }
 .divMainViajes{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: auto;
 }
 .paraElFinde{
     padding-top:10%;
@@ -257,12 +271,23 @@ h5{
 .flyersFinde{
     padding-top: 5%;
     padding-bottom: 5%;
-    width: 100%;
+    width: auto;
 }
-.primerYSegundoLugar{
-    background-image: url(../img/flyerSANRAFAEL.jpg);
+.PrimerLugar{
+    background-image: url(../img/quintaolivos.jpeg);
     background-size: 100% 100%;
-    height: 200px;
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.SegundoLugar{
+    background-image: url(../img/elena.webp);
+    background-size: 100% 100%;
+    height: 300px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -273,30 +298,78 @@ h5{
 .botonFlyerFinde{
     text-decoration: none;
     display: flex;
-    font-size: 15px;
+    font-size: 20px;
     justify-content: space-around;
     color: $blanquito;
     font-family: "Poppins", sans-serif ;
     background-color: $colorh1;
     border-radius: 8px;
-    width: 90px;
+    width: auto;
     text-shadow:1px 1px 2px black;
 }
 .quintaMilagros{
-    background-image: url(../img/flyerSANRAFAEL.jpg);
+    background-image: url(../img/granjamilagros.jpeg);
     background-size: 100% 100%;
-    height: 200px;
+    height: 300px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     margin-top: 10px;
     margin-bottom: 15px;
-}    
+}
+.primerPaquete{
+    background-image: url(../img/mendoza.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.segundoPaquete{
+    background-image: url(../img/bariloche.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.tercerPaquete{
+    background-image: url(../img/mdq.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.cuartoPaquete{
+    background-image: url(../img/salta.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.quintoPaquete{
+    background-image: url(../img/puerto\ madryn.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.sextoPaquete{
+    background-image: url(../img/federacion.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.septimoPaquete{
+    background-image: url(../img/cataratas.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 #paqueteee{
-    background-image: url(../img/flyerSANRAFAEL.jpg);
-    background-size: 100% 100%;
-    height: 200px;
+    background-size: 99% 100%;
+    height: 400px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -349,7 +422,7 @@ h5{
 #backgroundGaleria{
     background-image: url(../img/probar2.jpg);
     background-size: 100% 600px;
-    height: 372px;
+    height: 250px;
 }
 .noMeTomaElEstilo{
     padding-top: 30px;
@@ -360,6 +433,9 @@ h5{
 .bodyGaleria{
     background-color: rgb(218, 183, 133);
 }
+.formularioContacto{
+    padding-bottom: 25px;
+}
 .imagenAboutMe{
     width: 100%;
 }
@@ -368,6 +444,9 @@ h5{
     margin-top: 10px;
     margin-bottom: 10px;
     padding-bottom:3px ;
+}
+.textoFormulario{
+    padding-bottom: 5%;
 }
 @media(min-width: 768px){
     h1{
@@ -391,7 +470,10 @@ h5{
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .primerYSegundoLugar{
+    .PrimerLugar{
+        height: 400px;
+    }
+    .SegundoLugar{
         height: 400px;
     }
     .quintaMilagros{
@@ -409,6 +491,9 @@ h5{
     .containerNuestraHistoria{
         padding-bottom: 1%;
         height: 250px;
+    }
+    h5{
+        font-size: 25px;
     }
 }
 @media(min-width: 1048px){
@@ -636,26 +721,19 @@ h5{
         align-items: center; 
         padding-bottom: 100px;
     }
-    .mainViajes{
-        padding-top: 4em;
-        padding-bottom: 2em;
+    .mainViajes {
+        padding: 5% 15% 5% 15%;
     }
-    .primerYSegundoLugar{
-        background-image: url(../img/flyerSANRAFAEL.jpg);
-        background-repeat: no-repeat;
+    .PrimerLugar{
         background-size: 400px 400px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
+        height: 100%;
+    }
+    .SegundoLugar{
+        background-size: 400px 400px;
         height: 100%;
     }
     .quintaMilagros{
-        background-image: url(../img/flyerSANRAFAEL.jpg);
-        background-repeat: no-repeat;
         background-size: 850px 400px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
         height: 100%;
     }
     .flyersFinde{
@@ -680,7 +758,7 @@ h5{
     .botonFlyerFinde{
         text-decoration: none;
         display: flex;
-        font-size: 25px;
+        font-size: 28px;
         justify-content: space-around;
         color: $blanquito;
         font-family: "Poppins", sans-serif ;
@@ -709,62 +787,6 @@ h5{
         column-gap: 50px;
         padding-top: 50px;
         justify-content: center;
-    }
-    .primerPaquete{
-        background-image: url(../img/flyerSANRAFAEL.jpg);
-        background-repeat: no-repeat;
-        background-size: 400px 400px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-    }
-    .segundoPaquete{
-        background-image: url(../img/flyerSANRAFAEL.jpg);
-        background-repeat: no-repeat;
-        background-size: 400px 400px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-    }
-    .tercerPaquete{
-        background-image: url(../img/flyerSANRAFAEL.jpg);
-        background-repeat: no-repeat;
-        background-size: 400px 400px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-    }
-    .cuartoPaquete{
-        background-image: url(../img/flyerSANRAFAEL.jpg);
-        background-repeat: no-repeat;
-        background-size: 400px 400px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-    }
-    .quintoPaquete{
-        background-image: url(../img/flyerSANRAFAEL.jpg);
-        background-repeat: no-repeat;
-        background-size: 400px 400px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-    }
-    .sextoPaquete{
-        background-image: url(../img/flyerSANRAFAEL.jpg);
-        background-repeat: no-repeat;
-        background-size: 400px 400px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-    }
-    .septimoPaquete{
-        background-image: url(../img/flyerSANRAFAEL.jpg);
-        background-repeat: no-repeat;
-        background-size: 400px 400px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
     }
     #paqueteee{
         margin-top: 0px;
@@ -807,21 +829,12 @@ h5{
         padding-right: 40;
         font-weight: bolder;
     }
+    #backgroundGaleria{
+        height: 378px;
+    }
     .primerCarousel{
         display: flex;
         padding-top: 50px;
-    }
-    .acaVaElCarousel1{
-        position: static;
-        padding-top: 25px;
-        padding-left: 10%;
-        width: 90%;
-        height: 700px;
-    }
-    .imagenDeCarousel{
-        height: 700px;
-        width: 100%;
-        padding-bottom: 55px;
     }
     .noMeTomaElEstilo{
         font-size: 50px;
@@ -878,7 +891,7 @@ h5{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: rgb(209, 240, 177);
+        background-color: rgb(241, 195, 95);
         width: 1200px;
         height: 600px;
         border:5px solid black;
