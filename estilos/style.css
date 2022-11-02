@@ -1077,6 +1077,7 @@ h5 {
   .mainNH {
     display: flex;
     align-items: center;
+    max-width: 90vw;
   }
   .bloqueConDescripcion {
     display: flex;
