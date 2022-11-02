@@ -177,6 +177,7 @@ h1 {
   max-width: 1000px;
   min-width: 320px;
   margin: auto;
+  padding-bottom: 3%;
 }
 
 .imagenDeCarousel {
@@ -527,7 +528,7 @@ h5 {
 }
 
 #backgroundGaleria {
-  background-image: url(../img/probar2.jpg);
+  background-image: url(../img/cerro.jpg);
   background-size: 100% 600px;
   height: 250px;
 }
@@ -552,10 +553,11 @@ h5 {
 }
 
 .aboutMe {
-  border: 5px solid rgb(226, 157, 61);
   margin-top: 10px;
   margin-bottom: 10px;
   padding-bottom: 3px;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .textoFormulario {
@@ -583,6 +585,18 @@ h5 {
   .prefooter {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  .container {
+    height: 315px;
+  }
+  .flyerCordoba {
+    height: 800px;
+  }
+  .flyerSanRafael {
+    height: 800px;
+  }
+  .flyerMendoza {
+    height: 800px;
   }
   .PrimerLugar {
     height: 400px;
@@ -617,7 +631,6 @@ h5 {
     background-size: 100% 600px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     width: 100%;
     height: 610px;
   }
